@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* border: 1px solid red; */
+    background: url(/img/bg.png) center no-repeat;
+    height: 500px;
+}
+/* .menu{
+    border: 1px solid rgb(8, 8, 29); 
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,61,1) 7%, rgba(0,212,255,1) 74%);
+    box-shadow: 5px 3px 3px red;
+    height: 40px;
+} */
+
+.navigator{
+    width: 1000px;
+    margin: 0 auto;
+    height: 50px;
+    /* border: 1px solid black; */
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navigator a {
+    text-decoration: none;
+    color:turquoise;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.cd{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.card-1{
+    background-color: rgb(41, 153, 116);
+}
+.card-2{
+    background-color: rgb(52, 138, 109);
+}
+.card-3{
+    background-color: rgb(58, 151, 136);
+}
+.card-4{
+    background-color: rgb(38, 131, 118);
+}
+
+.block2{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 800px;
+    display: flex;
+flex-direction: row;
+    justify-content: space-around;
+}
+.bl{
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgb(151, 146, 146);
+}
+.block21{
+    box-shadow: 2px 2px 2px 2px rgb(175, 174, 174);
+}
+.slogan{
+    font-size: 22px;
+    color: darkcyan;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+.line {
+    color: rgb(51, 102, 85);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.txtbl{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
